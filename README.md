@@ -75,3 +75,8 @@ pip install -r requirements.txt
   Detect prompt vulnerabilities
   Help fine-tune moderation layers
   Contribute to safer AI research practices
+
+⚙️ Usage
+   python test_runner.py --model openai --testset adversarial_set.json
+You can also write your own test cases in testcases/ and run:
+   python test_runner.py --custom testcases/mytests.json
